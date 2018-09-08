@@ -1,0 +1,44 @@
+RESPUESTAS
+1.-
+proyecto
+├── myproyecto
+|       __init__.py
+|       settings.py
+|       urls.py
+|       wsgi.py
+├── manage.py
+└── app
+    ├── migrations
+    |       __init__.py
+    ├── __init__.py
+    ├── admin.py
+    ├── models.py
+    ├── tests.py
+    └── views.py
+
+2.-
+-python3 manage.py runserver 
+-python3 manage.py makemigrations 
+-python3 manage.py migrate
+-python3 mange.py createsuperuser
+
+3.-
+La diferencia de urls es la dirección en la que se encuentra y funcionalidad con el modelo de datos que se le Implementara
+
+4.-
+path('create_tweet2/', views.create_tweet, name="Create_Tweet_view"), 
+5.-
+path('create_tweet/', views.Create_Tweet.as_view(), name="Create_Tweet_view")
+6.-
+django-admin startproject proyecto
+
+7.-
+python3 manage.py startapp apliacion
+
+8.-para dar de altar las carpetas estatic y la configurcion de django como su idioma, o si se va a registrar una app ,etc.
+
+9.-
+-python3 manage.py  makemigrations
+
+10.-
+-python3 manage.py  migrate
